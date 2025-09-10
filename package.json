@@ -1,0 +1,38 @@
+{
+  "name": "draw-live-admin",
+  "version": "0.0.1",
+  "description": "AI画笔游戏管理系统",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vue-tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "axios": "^1.11.0",
+    "echarts": "^5.6.0",
+    "element-plus": "^2.11.2",
+    "pinia": "^2.3.1",
+    "vue": "^3.5.12",
+    "vue-echarts": "^7.0.3",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "@vue/eslint-config-typescript": "^14.1.3",
+    "@vue/tsconfig": "^0.8.1",
+    "eslint": "^9.13.0",
+    "eslint-plugin-vue": "^9.29.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "unplugin-auto-import": "^0.18.6",
+    "unplugin-vue-components": "^0.27.5",
+    "vite": "^5.4.8",
+    "vue-tsc": "^2.1.6"
+  }
+}
